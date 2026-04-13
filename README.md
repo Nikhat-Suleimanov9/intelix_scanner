@@ -84,10 +84,10 @@ python main.py [OPTIONS] FILE [FILE ...]
 ### Examples
 
 ```bash
-# Scan a single file with defaults
+# Scan multiple files
 python main.py ../samples/sample.exe ../samples/sample.docs ../samples/sample.pdf
 
-# Scan multiple files, different region, custom output dir
+# Scan multiple files, different region
 python main.py --region us-east  ../samples/sample.exe ../samples/sample.docx ../samples/sample.pdf
 ```
 
