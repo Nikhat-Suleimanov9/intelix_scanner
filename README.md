@@ -85,10 +85,10 @@ python main.py [OPTIONS] FILE [FILE ...]
 
 ```bash
 # Scan a single file with defaults
-python main.py ../samples/sample.exe
+python main.py ../samples/sample.exe ../samples/sample.docs ../samples/sample.pdf
 
 # Scan multiple files, different region, custom output dir
-python main.py --region us-east --reports-dir out ../samples/sample.exe ../samples/sample.docx
+python main.py --region us-east  ../samples/sample.exe ../samples/sample.docx ../samples/sample.pdf
 ```
 
 Activity is logged to **stdout** and to `logs/intelix_scanner.log`.
