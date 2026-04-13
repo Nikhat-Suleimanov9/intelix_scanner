@@ -34,7 +34,7 @@ intelix_scanner/
 | `report_writer.py` | Serialises the result dict and writes it to a `.txt` file |
 | `config.py` | Holds all runtime config — credentials from environment, rest from CLI arguments |
 | `logger.py` | Configures the root logger once at startup (stdout + file) |
-| `main.py` | Thin entry point — CLI args, auth, delegates to `pipeline.run_all`, summary |
+| `main.py` | Thin entry point — CLI args, auth, forwards execution to `pipeline.run_all`, summary |
 
 ---
 
