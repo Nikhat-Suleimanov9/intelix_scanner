@@ -1,7 +1,7 @@
 # SophosLabs Intelix Static File Scanner
 
 A clean, minimal Python tool that submits files to the
-[SophosLabs Intelix](https://www.sophos.com/en-us/intelix) Static File Analysis API,
+[SophosLabs Intelix] Static File Analysis API,
 waits for the analysis to complete, and saves each JSON report as a `.txt` file.
 
 ---
