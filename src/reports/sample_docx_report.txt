@@ -1,0 +1,426 @@
+{
+  "jobId": "854a1b361232b2271dca0d80b43a304a",
+  "jobStatus": "SUCCESS",
+  "report": {
+    "analysis_subject": {
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha1": "86e50134c8bc5664a81f7b5c9c324b9e0aaba224",
+      "sha256": "54c1ba25bf6b6fa5d228d5371d7c9e1b38d8748b9cd2887bf51c2804c96bce0b"
+    },
+    "analysis_summary": [
+      {
+        "description": "Document saved in the '2007 Office Open XML' format",
+        "name": "edr_document_file_format_zip",
+        "severity": 1
+      },
+      {
+        "description": "Document has missing metadata fields",
+        "name": "edr_missing_meta_data_content",
+        "severity": 1
+      }
+    ],
+    "analysis_type": "static",
+    "archive_analysis": {},
+    "container_analysis": {},
+    "detection": {
+      "permalink": "",
+      "positives": 0,
+      "sophos": "",
+      "sophos_ml": "",
+      "total": 0
+    },
+    "document_analysis": {
+      "meta_data": {
+        "author": "Нихат Сулейманов",
+        "creating_application": "Microsoft Office Word",
+        "last_saved_by": "Нихат Сулейманов",
+        "revision_number": "4",
+        "template": "Normal"
+      }
+    },
+    "feature_analysis": {
+      "ioc_details": {
+        "edr_missing_meta_data_content": [
+          {
+            "ioc": [
+              "codepage",
+              "create_time",
+              "last_saved_time",
+              "total_edit_time",
+              "version",
+              "num_pages",
+              "num_words",
+              "num_chars"
+            ],
+            "type": "str"
+          }
+        ]
+      }
+    },
+    "linked_with_dynamic_analysis": false,
+    "ml_aggregate_results": {
+      "overall_score": 7
+    },
+    "ml_file": {
+      "analyses": {
+        "black_box": {
+          "benign": {
+            "raw": 0.0016105175018310547,
+            "score": 7
+          },
+          "model_name": "dsml_model_office",
+          "model_version": "20250101"
+        },
+        "feature_intersections": [
+          {
+            "benign": 9984631,
+            "benign_fraction": 0.9984631628961441,
+            "category": "severity=2",
+            "description": "Feature NOT Observed: Spreadsheet contains Excel Formula macros",
+            "indicator": "Feature NOT Observed: Spreadsheet contains Excel Formula macros --> severity=2",
+            "malware": 5992467,
+            "malware_fraction": 0.5992467501194967,
+            "probability": 0.3750660525028803,
+            "scale_factor": 10000000
+          },
+          {
+            "benign": 1575568,
+            "benign_fraction": 0.15755685036197992,
+            "category": "severity=2",
+            "description": "Feature NOT Observed: Document references content stored on a remote computer",
+            "indicator": "Feature NOT Observed: Document references content stored on a remote computer --> severity=2",
+            "malware": 1358210,
+            "malware_fraction": 0.1358210329268027,
+            "probability": 0.46295593725144263,
+            "scale_factor": 10000000
+          }
+        ],
+        "feature_maliciousness": {
+          "Document has missing metadata fields --> severity=1": {
+            "benign": 5134231,
+            "benign_fraction": 0.5134231313912075,
+            "category": "severity=1",
+            "description": "Document has missing metadata fields",
+            "indicator": "Document has missing metadata fields --> severity=1",
+            "malware": 7603728,
+            "malware_fraction": 0.7603728872338089,
+            "probability": 0.5969345767421883,
+            "scale_factor": 10000000
+          }
+        },
+        "genetic_analysis": {
+          "neighbor_info": {
+            "1527758b248514620b1d8b84333444b3d25533dc5c9635273463617288e477e7": {
+              "filepath": "1527758b248514620b1d8b84333444b3d25533dc5c9635273463617288e477e7",
+              "is_malware": false,
+              "match_percentage": 0.28125,
+              "score": 44.1
+            },
+            "1560d3de076ea4366f68c0c7733d561d67f76d38935f87434052ed899d19371a": {
+              "filepath": "1560d3de076ea4366f68c0c7733d561d67f76d38935f87434052ed899d19371a",
+              "is_malware": false,
+              "match_percentage": 0.28125,
+              "score": 44.1
+            },
+            "165fafd73354c16d8b5daf71cf21a4044782be417ae3075dadafe5d6b664db11": {
+              "filepath": "165fafd73354c16d8b5daf71cf21a4044782be417ae3075dadafe5d6b664db11",
+              "is_malware": false,
+              "match_percentage": 0.3125,
+              "score": 49
+            },
+            "1a6f245c1546f6d4b0aba20b2933905e81b64216bec401b63d7a9cc3141422d6": {
+              "filepath": "1a6f245c1546f6d4b0aba20b2933905e81b64216bec401b63d7a9cc3141422d6",
+              "is_malware": false,
+              "match_percentage": 0.3125,
+              "score": 49
+            },
+            "1fd2eb2c47e279d651ad01b5726ae2864524b16f97c1d9dbc9854950572a4def": {
+              "filepath": "1fd2eb2c47e279d651ad01b5726ae2864524b16f97c1d9dbc9854950572a4def",
+              "is_malware": false,
+              "match_percentage": 0.3125,
+              "score": 49
+            },
+            "2b5f4b0a57da1e7392a13e6f3e8978b3c8b37f75a529d9a23c637b37fc122441": {
+              "filepath": "2b5f4b0a57da1e7392a13e6f3e8978b3c8b37f75a529d9a23c637b37fc122441",
+              "is_malware": false,
+              "match_percentage": 0.3125,
+              "score": 49
+            }
+          },
+          "neighbor_matrix": {
+            "1527758b248514620b1d8b84333444b3d25533dc5c9635273463617288e477e7": {
+              "0_10959": false,
+              "10_5269": true,
+              "11_5671": false,
+              "12_7822": false,
+              "13_13296": true,
+              "14_11171": false,
+              "15_4186": false,
+              "16_2847": false,
+              "17_4704": false,
+              "18_5737": true,
+              "19_5435": false,
+              "1_4478": false,
+              "20_4112": false,
+              "21_5989": true,
+              "22_12883": true,
+              "23_4179": false,
+              "24_10930": true,
+              "25_4364": false,
+              "26_3842": true,
+              "27_6234": false,
+              "28_5810": false,
+              "29_7733": false,
+              "2_6116": false,
+              "30_2310": true,
+              "31_5796": false,
+              "3_6463": true,
+              "4_5052": false,
+              "5_11672": false,
+              "6_11547": false,
+              "7_14075": false,
+              "8_11450": false,
+              "9_10187": false
+            },
+            "1560d3de076ea4366f68c0c7733d561d67f76d38935f87434052ed899d19371a": {
+              "0_10959": false,
+              "10_5269": true,
+              "11_5671": true,
+              "12_7822": false,
+              "13_13296": true,
+              "14_11171": true,
+              "15_4186": false,
+              "16_2847": false,
+              "17_4704": false,
+              "18_5737": true,
+              "19_5435": false,
+              "1_4478": false,
+              "20_4112": false,
+              "21_5989": false,
+              "22_12883": false,
+              "23_4179": false,
+              "24_10930": false,
+              "25_4364": false,
+              "26_3842": false,
+              "27_6234": false,
+              "28_5810": true,
+              "29_7733": false,
+              "2_6116": false,
+              "30_2310": true,
+              "31_5796": true,
+              "3_6463": true,
+              "4_5052": false,
+              "5_11672": false,
+              "6_11547": false,
+              "7_14075": false,
+              "8_11450": false,
+              "9_10187": false
+            },
+            "165fafd73354c16d8b5daf71cf21a4044782be417ae3075dadafe5d6b664db11": {
+              "0_10959": true,
+              "10_5269": true,
+              "11_5671": true,
+              "12_7822": false,
+              "13_13296": true,
+              "14_11171": false,
+              "15_4186": false,
+              "16_2847": false,
+              "17_4704": false,
+              "18_5737": true,
+              "19_5435": false,
+              "1_4478": false,
+              "20_4112": false,
+              "21_5989": true,
+              "22_12883": false,
+              "23_4179": false,
+              "24_10930": true,
+              "25_4364": false,
+              "26_3842": false,
+              "27_6234": false,
+              "28_5810": true,
+              "29_7733": false,
+              "2_6116": false,
+              "30_2310": true,
+              "31_5796": true,
+              "3_6463": false,
+              "4_5052": false,
+              "5_11672": false,
+              "6_11547": false,
+              "7_14075": false,
+              "8_11450": false,
+              "9_10187": false
+            },
+            "1a6f245c1546f6d4b0aba20b2933905e81b64216bec401b63d7a9cc3141422d6": {
+              "0_10959": true,
+              "10_5269": false,
+              "11_5671": true,
+              "12_7822": false,
+              "13_13296": true,
+              "14_11171": true,
+              "15_4186": false,
+              "16_2847": false,
+              "17_4704": false,
+              "18_5737": true,
+              "19_5435": false,
+              "1_4478": false,
+              "20_4112": false,
+              "21_5989": true,
+              "22_12883": false,
+              "23_4179": false,
+              "24_10930": false,
+              "25_4364": false,
+              "26_3842": true,
+              "27_6234": false,
+              "28_5810": false,
+              "29_7733": false,
+              "2_6116": false,
+              "30_2310": true,
+              "31_5796": true,
+              "3_6463": true,
+              "4_5052": false,
+              "5_11672": false,
+              "6_11547": false,
+              "7_14075": false,
+              "8_11450": false,
+              "9_10187": false
+            },
+            "1fd2eb2c47e279d651ad01b5726ae2864524b16f97c1d9dbc9854950572a4def": {
+              "0_10959": true,
+              "10_5269": false,
+              "11_5671": true,
+              "12_7822": false,
+              "13_13296": true,
+              "14_11171": false,
+              "15_4186": false,
+              "16_2847": false,
+              "17_4704": false,
+              "18_5737": true,
+              "19_5435": false,
+              "1_4478": false,
+              "20_4112": false,
+              "21_5989": true,
+              "22_12883": false,
+              "23_4179": false,
+              "24_10930": true,
+              "25_4364": false,
+              "26_3842": false,
+              "27_6234": false,
+              "28_5810": false,
+              "29_7733": false,
+              "2_6116": false,
+              "30_2310": true,
+              "31_5796": true,
+              "3_6463": true,
+              "4_5052": false,
+              "5_11672": false,
+              "6_11547": false,
+              "7_14075": false,
+              "8_11450": true,
+              "9_10187": false
+            },
+            "2b5f4b0a57da1e7392a13e6f3e8978b3c8b37f75a529d9a23c637b37fc122441": {
+              "0_10959": true,
+              "10_5269": false,
+              "11_5671": true,
+              "12_7822": true,
+              "13_13296": true,
+              "14_11171": false,
+              "15_4186": false,
+              "16_2847": false,
+              "17_4704": false,
+              "18_5737": true,
+              "19_5435": false,
+              "1_4478": false,
+              "20_4112": false,
+              "21_5989": true,
+              "22_12883": false,
+              "23_4179": false,
+              "24_10930": false,
+              "25_4364": false,
+              "26_3842": false,
+              "27_6234": false,
+              "28_5810": false,
+              "29_7733": false,
+              "2_6116": false,
+              "30_2310": true,
+              "31_5796": true,
+              "3_6463": false,
+              "4_5052": false,
+              "5_11672": true,
+              "6_11547": false,
+              "7_14075": true,
+              "8_11450": false,
+              "9_10187": false
+            }
+          }
+        }
+      },
+      "analyzed_counts": {
+        "black_box": {
+          "benign": 32699842,
+          "malware": 2440554
+        },
+        "feature_intersections": {
+          "benign": 3606908,
+          "malware": 847763
+        },
+        "feature_maliciousness": {
+          "benign": 3606908,
+          "malware": 847763
+        },
+        "genetic_analysis": {
+          "benign": 7427092,
+          "malware": 2290827
+        }
+      },
+      "overall_score": 7,
+      "overall_scores": {
+        "black_box": 7,
+        "feature_intersections": 10,
+        "feature_maliciousness": 10,
+        "genetic_analysis": 6
+      }
+    },
+    "ml_filepath": {
+      "analyses": {
+        "neighbor_maliciousness": {
+          "most_similar": [],
+          "most_similar_benign": [],
+          "most_similar_malware": []
+        }
+      },
+      "analyzed_counts": {
+        "neighbor_maliciousness": {
+          "benign": -1,
+          "malware": -1
+        }
+      },
+      "overall_score": -1,
+      "overall_scores": {
+        "neighbor_maliciousness": -1
+      }
+    },
+    "ml_inputs": {
+      "filepath": null
+    },
+    "object_type": "file",
+    "reputation": {
+      "first_seen": "",
+      "last_seen": "",
+      "prevalence": "",
+      "score": 30,
+      "score_string": "Unknown reputation"
+    },
+    "schema_version": "1.2.4398047052352",
+    "score": 50,
+    "submission": "2026-04-12T22:30:35Z",
+    "target": {
+      "file_name": "sample.docx",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "object_id": "54c1ba25bf6b6fa5d228d5371d7c9e1b38d8748b9cd2887bf51c2804c96bce0b",
+      "sha1": "86e50134c8bc5664a81f7b5c9c324b9e0aaba224",
+      "sha256": "54c1ba25bf6b6fa5d228d5371d7c9e1b38d8748b9cd2887bf51c2804c96bce0b"
+    }
+  },
+  "requestId": "df12ae81-32e3-470a-8d27-eaeecdf07825"
+}
