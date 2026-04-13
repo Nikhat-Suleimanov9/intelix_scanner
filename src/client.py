@@ -38,18 +38,18 @@ _MAX_BACKOFF = 300          # seconds — cap for linear backoff
 # Human-readable messages for documented 4xx codes, keyed by status code.
 # 429 and 5xx are handled separately by the retry logic and never reach these.
 _SUBMIT_ERRORS = {
-    400: "Malformed request — check file type and parameters.",
-    401: "Unauthorised — the access token is missing, expired, or not valid for this service.",
-    404: "Endpoint not found — check the region and API path.",
-    405: "Method not allowed — the endpoint does not support the HTTP method used.",
-    415: "Unsupported media type — the request was not assembled correctly.",
+    400: "Malformed request - check file type and parameters.",
+    401: "Unauthorised - the access token is missing, expired, or not valid for this service.",
+    404: "Endpoint not found - check the region and API path.",
+    405: "Method not allowed - the endpoint does not support the HTTP method used.",
+    415: "Unsupported media type - the request was not assembled correctly.",
 }
  
 _RESULT_ERRORS = {
-    400: "Malformed request — check that the job ID format is valid.",
-    401: "Unauthorised — the access token is missing, expired, or not valid for this service.",
-    404: "Job ID not found — the ID is invalid or the result has expired.",
-    405: "Method not allowed — the endpoint does not support the HTTP method used.",
+    400: "Malformed request - check that the job ID format is valid.",
+    401: "Unauthorised - the access token is missing, expired, or not valid for this service.",
+    404: "Job ID not found - the ID is invalid or the result has expired.",
+    405: "Method not allowed - the endpoint does not support the HTTP method used.",
 }
  
 # ---------------------------------------------------------------------------
