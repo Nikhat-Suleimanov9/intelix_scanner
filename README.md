@@ -85,7 +85,7 @@ python main.py [OPTIONS] FILE [FILE ...]
 
 ```bash
 # Scan multiple files
-python main.py ../samples/sample.exe ../samples/sample.docs ../samples/sample.pdf
+python main.py ../samples/sample.exe ../samples/sample.docx ../samples/sample.pdf
 
 # Scan multiple files, different region
 python main.py --region us-east  ../samples/sample.exe ../samples/sample.docx ../samples/sample.pdf
