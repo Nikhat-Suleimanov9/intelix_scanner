@@ -77,7 +77,7 @@ python main.py [OPTIONS] FILE [FILE ...]
 
 | Argument | Default | Description |
 |---|---|---|
-| `--region` | `de` | API region: `us-east`, `de`, or `au` |
+| `--region` | `de` | API region: `us-east`, `de` or `au` |
 | `--reports-dir` | `reports` | Output directory for report files |
 
 
