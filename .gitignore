@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Credentials – never commit these
+.env
+*.env
+
+# Sample files – may be sensitive
+samples/
+
+# Generated output
+logs/
+reports/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
