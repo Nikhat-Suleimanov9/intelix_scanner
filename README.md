@@ -42,7 +42,6 @@ intelix_scanner/
 
 - Python 3.10+
 - A free SophosLabs Intelix account with API credentials
-  ([sign up here](https://aws.amazon.com/marketplace/pp/prodview-k4jb2agd65ses))
 
 ---
 
