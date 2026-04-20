@@ -76,7 +76,7 @@ class TestValidateRegion(unittest.TestCase):
 
     def test_does_not_raise_on_valid_regions(self):
         for region in ("us-east", "de", "au"):
-            validate_region(region)  # should not raise
+            validate_region(region) 
 
 
 # ---------------------------------------------------------------------------
